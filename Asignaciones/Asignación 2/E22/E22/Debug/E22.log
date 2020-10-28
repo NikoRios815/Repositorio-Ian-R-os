@@ -1,0 +1,17 @@
+﻿  Source.cpp
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(94,18): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(135,33): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(149,17): warning C4018: '<=': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(161,25): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(170,25): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(175,25): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(184,25): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(189,25): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(337,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(362,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(387,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(412,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(437,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(499,17): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\E22\Source.cpp(522,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  E22.vcxproj -> C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Repositorio\Asignaciones\Asignación 2\E22\Debug\E22.exe
