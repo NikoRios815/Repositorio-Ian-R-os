@@ -2,7 +2,7 @@
 #include "TextureManager.h"
 #include "GameObject.h"
 
-GameObject* box;
+
 GameObject* pin;
 GameObject* bg;
 GameObject* gohan;
@@ -54,7 +54,6 @@ void Simulation::init(const char* title, int xpos, int ypos, int width, int heig
 		isRunning = false;
 	}
 
-	box = new GameObject("assets/box1.png", renderer);
 	pin = new GameObject("assets/box1.png", renderer);
 	bg = new GameObject("assets/bg.png", renderer);
 	gohan = new GameObject("assets/gohan.png", renderer);
@@ -104,18 +103,18 @@ void Simulation::update(float dt)
 	//Pendulo:
 	satan->update(x - 50, y - 32, 98, 114);
 	
-	//Circular
+	//Movimiento circular
 	one->update(640 + 250 * cos(2 * timeCount) - 32, 400 + 250 * sin(2 * timeCount) - 32, 64, 64);
 	two->update(640 + 150 * cos(3 * timeCount) - 32, 400 + 150 * sin(3 * timeCount) - 32, 64, 64);
 	three->update(640 + 350 * cos(4 * timeCount) - 32, 400 + 350 * sin(4 * timeCount) - 32, 64, 64);
 
-	//lar
+	//Movimiento oscilatorio horizontal
 	four->update(190 + 150 * cos(2 * timeCount) - 32, 200, 64, 64);
 	five->update(190 + 150 * cos(3 * timeCount) - 32, 400, 64, 64);
 	six->update(190 + 150 * cos(4 * timeCount) - 32, 600, 64, 64);
 	
 	//Wavebeam:
-	videl->update(x_videl, 384 + 10 * sin(10 * timeCount)-32, 100, 82);
+	videl->update(x_videl, 384 + 10 * sin(10 * timeCount) - 32, 100, 82);
 	goten->update(x_goten, 384 + 100 * sin(10 * timeCount) - 32, 100, 82);
 
 	if (x_videl > 1280) {
@@ -126,11 +125,8 @@ void Simulation::update(float dt)
 		timeCountgoten = 0;
 	}
 
-	//Up and down
+	//movimiento oscilatorio vertical
 	gohan->update(640 - (108 / 2), 384 + 10 * sin(5 * timeCount) - (183 / 2), 108, 183);
-
-	//Static
-	//gohan->update(640 -32, 400 -32, 108, 183);
 
 	pin->update(1075 - 8, 250 - 8, 16, 16);
 }
@@ -141,15 +137,9 @@ void Simulation::render()
 
 	bg->render();
 
-	//x line
-	//SDL_SetRenderDrawColor(renderer, 0, 255, 255, SDL_ALPHA_OPAQUE);
-	//SDL_RenderDrawLine(renderer, -100, 400, 1500, 400);
-
-	//y line
-	//SDL_SetRenderDrawColor(renderer, 0, 255, 255, SDL_ALPHA_OPAQUE);
-	//SDL_RenderDrawLine(renderer, 640, -100, 640, 900);
-
+	//Línea del péndulo
 	SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);
+	//La X y Y son las coordenadas de mrsatan para simular como si la línea estuviera amarrada a él
 	SDL_RenderDrawLine(renderer, 1075, 250, x, y);
 
 	SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);

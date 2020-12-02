@@ -1,1 +1,24 @@
-﻿  SimulationTemplate.vcxproj -> C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\Debug\SimulationTemplate.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SimulationTemplate.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Simulation.cpp
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(95,15): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(96,11): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(97,10): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(104,26): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(104,18): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(107,82): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(107,45): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(108,82): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(108,45): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(109,84): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(109,47): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(112,46): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(113,46): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(114,45): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(117,56): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(117,16): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(118,57): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(118,16): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(129,63): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(143,45): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\SimulationTemplate\src\Simulation.cpp(143,42): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+  SimulationTemplate.vcxproj -> C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\Proyecto 2\Debug\Proyecto 2.exe
