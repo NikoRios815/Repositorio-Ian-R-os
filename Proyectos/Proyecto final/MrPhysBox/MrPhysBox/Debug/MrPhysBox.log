@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\MrPhysBox\MrPhysBox\main.cpp(181,24): warning C4244: '=': conversión de 'Uint32' a 'float'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\MrPhysBox\MrPhysBox\main.cpp(185,25): warning C4244: 'argumento': conversión de 'float' a 'Uint32'; posible pérdida de datos
+C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\MrPhysBox\MrPhysBox\main.cpp(188,30): warning C4244: '=': conversión de 'Uint32' a 'float'; posible pérdida de datos
+  MrPhysBox.vcxproj -> C:\Users\nrios\Documents\Universidad\2020 2do semestre\Fisica\MrPhysBox\Debug\MrPhysBox.exe
